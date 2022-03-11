@@ -1,0 +1,35 @@
+.sidenav{
+    /* border: 1px solid blue; */
+    width: 22%;
+    border-right: 1px solid #d6d6d6;
+    border-radius: 8px;
+}
+.sidenav > .m-top > a{
+    display: flex;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+.snav-icons{
+    width: 20px;
+    height: 20px;
+    margin-right: 30px;
+}
+.snav-link{
+    color: #0374BA;
+    font-family: "lato";
+    line-height: 19px;
+}
+.active-style{
+    background-color: #0374BA;
+    border-left: 5px solid #0A5A8B;
+}
+.active-style > .snav-link{
+    color: white;
+}
+
+.active-style > .snav-icons{
+    filter: saturate(10);
+}
+.m-top{
+    margin-top: 40px;
+}

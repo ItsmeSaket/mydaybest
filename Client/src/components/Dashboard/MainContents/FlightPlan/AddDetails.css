@@ -1,0 +1,30 @@
+.adetail-submit{
+    padding: 5px 50px;
+}
+
+.adetail-input{
+    /* border : 1px solid red; */
+    width : 100%;
+    padding : 10px 15px;
+    margin : 10px;
+    background-color: #F5F5F5;
+    color: #868686;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.tab-inp{
+    width: 100%;
+    border: none;
+    text-align: center;
+    max-height: auto;
+}
+
+.add-more-btn{
+    text-decoration: none;
+    border: none;
+    background-color: #F8F8F9;
+    color: #0374BA;
+    margin: 20px 0 40px 0;
+}

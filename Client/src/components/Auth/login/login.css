@@ -1,0 +1,167 @@
+.login-navbar {
+  width: 100%;
+  height: 80px;
+}
+
+.background{
+  min-height: 100vh;
+  background-image: url(../../images/sharab-bandi.png);
+  background-repeat: no-repeat;
+  background-size: 800px 600px;
+  background-position: top right;
+}
+
+.login-content{
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+.formBox{
+  width: 500px;
+  height: auto;
+  padding: 50px;
+  border-radius: 58.4751px;
+  background: #FFFFFF;
+
+  box-shadow: 0 0 25px rgb(204, 204, 204);
+}
+.box-email{
+  margin-top: 25px;
+}
+div > div > h1 {
+  font-family: 'Roboto', sans-serif;
+  color: #0374BA;
+}
+div > div > p{
+  font-weight: 400;
+  color: rgb(99, 99, 99);
+}
+
+div > div >p > a.sup-pg{
+  text-decoration: none;
+}
+
+input.sin-in{
+  width: 125%;
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  border-radius: 13px;
+  outline: none;
+  background: rgba(196, 196, 196, 0.25);
+}
+
+
+input.sin-in:focus::-webkit-input-placeholder {
+  font-size: .75em;
+  position: relative;
+  top: -15px; 
+  transition: 0.5s ease-out;
+}
+
+input::-webkit-input-placeholder {
+  transition: 0.5s ease-in;
+}
+
+input.sin-in[type="text"]:focus, input.sin-in[type="password"]:focus, input.sin-in[type="email"]:focus {
+  height: 50px;
+  padding-bottom: 0px;
+  transition: 0.5s ease-in;
+}
+
+input.sin-in[type="text"], input.sin-in[type="password"], input.sin-in[type="email"]:focus {
+  height: 50px;
+  transition: 0.5s ease-in;
+}
+
+img.res1{
+  width: 25px;
+  height: 20px;
+  margin: 12px;
+}
+
+img.res2 {
+  width: 10px;
+  height: 10px;
+  margin: 17px 20px;
+}
+select.sin-slctout{
+  margin: 35px 0;
+  padding: 10px;
+  border-radius: 12px;
+  color: #828282;
+  background-color: rgba(196, 196, 196, 0.25);
+}
+option.sin-slctin{
+  margin: 30px 0;
+  border: none;
+  outline: none;
+  color: rgb(116, 116, 116);
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 13.1423px;
+  padding: 10px 70px 10px 10px;
+}
+
+.fpwd-btn{
+  color: #0374BA;
+  text-decoration: none;
+}
+
+.signin-btn{
+  border: none;
+  text-decoration: none;
+  padding: 10px 69px;
+  color: white;
+  background-color: #0374BA;
+  border-radius: 45.7127px;
+  margin-top: 10px;
+}
+.signin-btn:hover{
+  color: white;
+  background-color: rgb(82, 207, 82);
+}
+.righte{
+  text-align: right;
+  margin-bottom: 20px;
+}
+div.eye-btn{
+  position: relative;
+}
+.cut{
+  position: absolute;
+  top: 2px;
+}
+
+@media screen and (max-width:576px) {
+  .formBox{
+    width: 80vw;
+  }
+  input.sin-in{
+    width: 100%;
+  }
+  .res0{
+    position: relative;
+  }
+  .res1 , .res2{
+    position: absolute;
+    left: 77%;
+    top: -46px;
+  }
+}
+
+
+
+.error {
+  width: 25%;
+  margin: 0 auto;
+  margin-top: 1%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  border-radius: 15px;
+}
+
+.error > h2 {
+  font-size: 14px;
+}

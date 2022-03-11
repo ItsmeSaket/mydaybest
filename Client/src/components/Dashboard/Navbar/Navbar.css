@@ -1,0 +1,92 @@
+.db-navbar{
+    width: 100%;
+    height: 80px;
+    border-bottom: 1px solid #d6d6d6;
+    /* border: 1px solid green; */
+}
+.outer-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.navlogo{
+    height: 75px;
+    padding: 15px;
+
+}
+.separator{
+    height: 50px;
+    padding: 14px 0;
+}
+.webname{
+    height: 68px;
+    padding: 22px;
+    margin-top: 5px;
+}
+.search-box{
+    padding: 10px;
+    border: 1px solid #ABACAC;
+    border-radius: 5px;
+    width: 250px;
+}
+.search-box:focus{
+    outline: none;
+}
+.margin-nav{
+    margin: 20px;
+}
+
+.search-box::-webkit-input-placeholder { 
+    font-family: "Open Sans", sans-serif;
+}
+  
+.search-box:-moz-placeholder { 
+    font-family: "Open Sans", sans-serif;
+}
+.search-img{
+    position: relative;
+}
+.search-btn{
+    position: absolute;
+    right: 34px;
+    top: 30px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+.fa-search{
+    color: #0374BA;
+    font-size: 20px;
+}
+
+
+
+
+
+.right-nav{
+    display: flex;
+    margin-right: 30px;
+}
+.bell{
+    height: 35px;
+    margin: 20px 12px;
+}
+
+
+.dropdown{
+    height: 20px;
+    margin: auto 30px auto 10px;
+    border: none;
+    outline: none;
+    color: blue;
+    font-family: "Open Sans";
+}
+
+.logout-btn{
+    height: 40px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0374BA;
+    color: white;
+    margin: 18px 0 0 15px;
+}

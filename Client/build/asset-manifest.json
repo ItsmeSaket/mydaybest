@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ee954dd.css",
+    "main.js": "/static/js/main.29fb5699.js",
+    "static/media/Basemap.png": "/static/media/Basemap.a46506e3df26e9efa6c9.png",
+    "static/media/carousel0.png": "/static/media/carousel0.bb8f21a2cd6b66a1c87b.png",
+    "static/media/carousel1.png": "/static/media/carousel1.823c05fbf501e8f1bd69.png",
+    "static/media/carousel4.png": "/static/media/carousel4.a46262e1ae9a08138c7e.png",
+    "static/media/carousel3.png": "/static/media/carousel3.512c8727b4c78cee4dcd.png",
+    "static/media/carousel2.png": "/static/media/carousel2.62895c49b5e2d304cdd4.png",
+    "static/media/sharab-bandi.png": "/static/media/sharab-bandi.4ce38521a64347ddceab.png",
+    "static/media/profileImg.png": "/static/media/profileImg.879b89514df7034f5125.png",
+    "static/media/navlogo.png": "/static/media/navlogo.306391d53b17529aef33.png",
+    "static/media/webName.png": "/static/media/webName.8b55799c067b4f2235d2.png",
+    "index.html": "/index.html",
+    "main.6ee954dd.css.map": "/static/css/main.6ee954dd.css.map",
+    "main.29fb5699.js.map": "/static/js/main.29fb5699.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ee954dd.css",
+    "static/js/main.29fb5699.js"
+  ]
+}

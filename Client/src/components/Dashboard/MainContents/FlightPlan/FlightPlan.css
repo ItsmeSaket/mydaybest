@@ -1,0 +1,188 @@
+.fp-topbox{
+    display: flex;
+    justify-content: space-between;
+}
+.fp-heading{
+    color: #0374BA;
+    margin-bottom: 40px;
+}
+.fp-crewdata{
+    border: 2px solid #0374BA;
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 10px 25px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+    padding: 23px 23px 15px 23px;
+    position: relative;
+    margin-left: 0px;
+    background-color: white;
+}
+
+.fp-cd-flex{
+    display: flex;
+    margin-bottom: 8px;
+}
+.fp-cd-flex > b{
+    width: 180px;
+}
+.mydate{
+    position: absolute;
+    left: 60px;
+    top: -20px;
+    background-color: #F0F0F0;
+    width: 210px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.mydate > p{
+    color: #0374BA;
+    margin-right: 10px;
+}
+.calendarimg{
+    width: 20px;
+    height: 25px;
+}
+
+.col-md-4.first{
+    margin-top: 30px;
+}
+.my-flex{
+    display: flex;
+}
+.editimg{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+a.my-flex, button.my-flex{
+    text-decoration: none;
+    background-color: #E1E1E1;
+    margin-left: 10px;
+    padding: 9px 14px;
+    height: 45px;
+    border: none;
+    border-radius: 12px;
+}
+button > p{
+    color: #0d6efd;
+}
+
+a.my-flex:hover , button.my-flex:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 5px rgb(187, 187, 187);
+}
+
+.fplan-table{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-left: 0px;
+    text-align: center;
+}
+tr{
+    /* border: 2px solid red; */
+    /* border-radius: 20px; */
+    background-color: white;
+    box-shadow: 0 0 5px rgb(194, 193, 193);
+}
+.table-head > th{
+    padding: 15px 10px;
+    /* border: 1px solid red; */
+    background-color: #0374BA;
+    color: white;
+}
+td{
+    height: 70px;
+}
+
+table.fptable{
+    border-collapse: separate;
+    border-spacing: 0 1em;
+}
+tr > th{
+    border-right: 1px solid white;
+}
+th.start{
+    border-radius: 10px 0 0 10px;
+}
+th.end{
+    border-radius: 0 10px 10px 0;
+    width: 200px;
+}
+
+td.logno{
+    color: #0374BA;
+}
+
+.fplan-table > .fptable > tbody > tr > td {
+    height: 50px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+/* input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+} */
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    color: rgba(0, 0, 0, 0);
+    opacity: 1;
+    display: block;
+    background: url(../../../images/Calendar.png) no-repeat;
+    background-size: 20px;
+    width: 20px;
+    height: 20px;
+    border-width: thin;
+}
+
+input[type="date"]{
+    border: none;
+    outline: none;
+    background-color: #F0F0F0;
+}
+
+div.mydate > button {
+    border: none;
+    outline: none;
+}
+
+span > input[type="text"] {
+    width: 90%;
+    border: none;
+}
+
+
+
+
+
+
+
+/* carousel css  */
+
+.img-size{
+    /* 	padding: 0;
+        margin: 0; */
+        height: 450px;
+        width: 700px;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .modal-content {
+       width: 700px;
+      border:none;
+    }
+    .modal-body {
+       padding: 0;
+    }
+    
+    .carousel-control-prev-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+        width: 30px;
+        height: 48px;
+    }
+    .carousel-control-next-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23009be1' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+        width: 30px;
+        height: 48px;
+    }
